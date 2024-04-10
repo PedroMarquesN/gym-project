@@ -1,5 +1,5 @@
 export default function Footer() {
     return (
-        <header>Footer</header>
+        <footer className="h-[80vh] bg-orange-300">Footer</footer>
     )
 }

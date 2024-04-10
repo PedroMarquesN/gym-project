@@ -1,6 +1,6 @@
 export default function Membership() {
     return (
-        <section className="h-screen bg-lime-300">
+        <section className="h-screen bg-lime-300" id='prices'>
             Membership
         </section>
     )

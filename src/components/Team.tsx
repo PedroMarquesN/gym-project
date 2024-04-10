@@ -1,7 +1,7 @@
 export default function Team() {
     return (
-        <div className="h-screen bg-red-300">
+        <section className="h-screen bg-red-300" id='team'>
             team
-        </div>
+        </section>
     )
 }

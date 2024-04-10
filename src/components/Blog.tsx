@@ -1,5 +1,5 @@
 export default function Blog() {
     return (
-        <div className="h-screen bg-emmerald-300">Blog</div>
+        <section id='blog' className="h-screen bg-emerald-300">Blog</section>
     )
 }
