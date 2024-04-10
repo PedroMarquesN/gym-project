@@ -44,11 +44,26 @@ export default function Header() {
                     `}
                 />
                 {/*desktop nav*/}
-                <Nav containerStyles='flex gap-4 hidden xl:flex text-white' />
+                <Nav containerStyles='flex gap-4 hidden xl:flex text-white
+                    text-base uppercase font-medium transition-all
+                ' />
                 {/*hide/open menu button */}
-                <div>
+                <div className={`text-white flex items-center gap-4`}>
+                    {/*login/register */}
+                    <div className={`text-white flex items-center gap-4`}>
+                        <button
+                            className={`
+                                hover:text-accent transition-all text-base uppercase font-medium`}>
+                            Entrar
+                        </button>
+                        <button
+                            className={`
+                                hover:text-accent transition-all text-base uppercase font-medium`}>
+                            Registrar
+                        </button>
+                    </div>
                     <button onClick={() => setOpenNav(!openNav)} className={`text-white xl:hidden`}>
-                        <MdMenu  className={`text-xl`}/>
+                        <MdMenu  className={`text-4xl`}/>
                     </button>
                 </div>
 
