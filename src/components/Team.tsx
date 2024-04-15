@@ -47,7 +47,7 @@ const trainerData = [
         image:'/assets/img/trainers/sofia.jpg',
         name:'Sofia Smith',
         role:'Personal Trainer',
-        description:'Professora de luta, Torneio de campeã de boxe, Sofia é uma profissional de educação física .',
+        description:'Sofia é formado em educação física e tem mais de 10 anos de experiência. Ele é especialista em treinamento funcional e musculação.',
         social:[
             {icon:FaFacebook, href:'https://www.facebook.com'},
             {icon:FaYoutube, href:'https://www.youtube.com'},
