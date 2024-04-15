@@ -16,7 +16,7 @@ const trainerData = [
             {icon:FaFacebook, href:'https://www.facebook.com'},
             {icon:FaYoutube, href:'https://www.youtube.com'},
             {icon:FaTwitter, href:'https://www.twitter.com'},
-            {icon:FaLinkedinIn, link:'https://www.linkedin.com'}
+            {icon:FaLinkedinIn, href:'https://www.linkedin.com'}
         ]
     },
     {
@@ -28,7 +28,7 @@ const trainerData = [
             {icon:FaFacebook, href:'https://www.facebook.com'},
             {icon:FaYoutube, href:'https://www.youtube.com'},
             {icon:FaTwitter, href:'https://www.twitter.com'},
-            {icon:FaLinkedinIn, link:'https://www.linkedin.com'}
+            {icon:FaLinkedinIn, href:'https://www.linkedin.com'}
         ]
     },
     {
@@ -40,7 +40,7 @@ const trainerData = [
             {icon:FaFacebook, href:'https://www.facebook.com'},
             {icon:FaYoutube, href:'https://www.youtube.com'},
             {icon:FaTwitter, href:'https://www.twitter.com'},
-            {icon:FaLinkedinIn, link:'https://www.linkedin.com'}
+            {icon:FaLinkedinIn, href:'https://www.linkedin.com'}
         ]
     },
     {
@@ -96,7 +96,7 @@ export default function Team() {
                                             <div key={index}>
                                                 <Link
                                                     className={`hover:text-accent transition-all`}
-                                                    href={social.href || social.link} >
+                                                    href={social.href} >
                                                     <social.icon className={`text-2xl cursor-pointer`} />
                                                 </Link>
                                             </div>
