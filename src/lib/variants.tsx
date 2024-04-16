@@ -6,7 +6,7 @@ export const fadeIn = (direction: string, delay:number) => {
         x: direction === 'left' ? 40 : direction === 'right' ? -40 : 0,
         transition: {
             type:'tween',
-            duration: 1.4,
+            duration: 0.8,
             delay: delay,
             ease: [0.25,0.6,0.3,0.8]
         }
